@@ -7,7 +7,7 @@ package modele;
 
 public class Client
 {
-    private int id1, statut_id, nbhcpta, nbhbur;
+    private int id, statut_id, nbhcpta, nbhbur;
     private String nom, password, adresse, cp, ville, email;
 
     public Client()
