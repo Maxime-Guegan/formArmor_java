@@ -21,6 +21,7 @@ public class GestionSql
     //Requete permettant de retourner l'ensemble des clients
     public static ObservableList<Client> getLesClients()
     {
+        
         Connection conn;
         Statement stmt1;
         Client monClient;
